@@ -1,0 +1,32 @@
+Database Connection Ethics:
+ Problems will occur while connecting or communicating with the database.
+ Datatbase is always in another continent hence it takes time to communicate with database.
+ 
+ To resolve such problems:
+  - Always wrap in try/catch or handle error using promises through resolve and reject.
+
+  - Always use async and await to communicate with database. As it takes time to establish connection.
+
+  - Sample Code - 
+            import express from "express";
+            const app = express();
+
+            //Eiffy: (async ()=>{})()
+
+            async function connectDB() {
+                try{
+                await mongoose.connect(`${process.env.MONGODB_URL}/${DB_NAME}`)
+                    app.on("errr", (error)=>{
+                        console.log("ERRR:", error)
+                        throw error
+                    })
+
+                    app.listen(process.env.PORT, ()=>{
+                        console.log(`Server is running on port ${process.env.PORT}`);
+                    })
+
+                } catch(error) {
+                    console.log("Error:", error)
+                    throw error;
+                }
+            }
