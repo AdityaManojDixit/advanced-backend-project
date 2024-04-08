@@ -1,0 +1,3 @@
+# Advanced Backend Project
+
+- [Model Link](https://www.youtube.com/redirect?event%3Dvideo_description%26redir_token%3DQUFFLUhqbnRrRkdod285dldFUkN6ZG1HMlUwS3RPNmstd3xBQ3Jtc0tuVDhRMW9ycUJvY2tvTHE2dFRUWnRMeGdTWlpjeEpjYjRrNldCYVRKSTVSTGVYUVA1bXpwcU52ZEVsN2NXQUwxM3JUN21GeDBpamFoQXI5WGxWQURHX0s2bDJSU1YtRjlBMmNDalFNeWhDWlA1RWtLcw%26q%3Dhttps%3A%2F%2Fapp.eraser.io%2Fworkspace%2FYtPqZ1VogxGy1jzIDkzj%3Forigin%3Dshare%26v%3D9B4CvtzXRpc)
